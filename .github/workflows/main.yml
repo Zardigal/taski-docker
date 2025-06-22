@@ -80,3 +80,4 @@ jobs:
           # Параметр push: true указывает, что образ нужно не только собрать,
           # но и отправить на Docker Hub
           push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/taski_backend:latest 
